@@ -2,6 +2,9 @@
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.editor.labelFormat": "short",
 
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": "active",
+
 	"editor.fontFamily": "Fira Code", 
 	"editor.fontLigatures": true,
 	"editor.fontSize": 16,
@@ -37,7 +40,7 @@
 
 	"breadcrumbs.enabled": true,
 	"git.enableSmartCommit": true,
-	"workbench.colorTheme": "Arkham Theme",
+	"workbench.colorTheme": "Dracula",
 
 	"material-icon-theme.folders.associations": {
 		"infra": "app",
@@ -56,6 +59,10 @@
 	"material-icon-theme.files.associations": {
 		"ormconfig.json": "database",
 		"tsconfig.json": "tune"
+    },
+	"workbench.sideBar.location": "right",
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 
 }
